@@ -113,7 +113,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Rochambo/ResultsViewController.swift"
@@ -129,7 +129,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Rochambo/ResultsViewController.swift"
@@ -145,7 +145,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Rochambo/ResultsViewController.swift"
@@ -165,12 +165,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Rochambo/ChoiceViewController.swift"
-            timestampString = "461555988.315855"
+            timestampString = "461696670.343665"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
-            landmarkName = "playRock(_:)"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "play(_:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -181,44 +181,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Rochambo/ChoiceViewController.swift"
-            timestampString = "461555988.315855"
+            timestampString = "461696618.84636"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
-            landmarkName = "playPaper(_:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Rochambo/ChoiceViewController.swift"
-            timestampString = "461555988.315855"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
-            landmarkName = "prepareForSegue(_:sender:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Rochambo/ChoiceViewController.swift"
-            timestampString = "461555988.315855"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
-            landmarkName = "playRock(_:)"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "play(_:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
