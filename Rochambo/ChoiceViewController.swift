@@ -32,17 +32,34 @@ class ChoiceViewController: UIViewController {
         
 //        rockButton.addTarget(self, action: "play", forControlEvents: UIControlEvents.TouchUpInside)
     }
+    
+    // Programmatic Approach
+    // 
+    // This will be used by the "Rock" button.  But we will use the getUserShape helper method so that we
+    // could use this method with any chice if we wanted to change later
+    
+    @IBAction private func playRock(sender: UIButton) {
+        let rvc = self.storyboard!.instantiateViewControllerWithIdentifier("ResultsViewController") as! ResultsViewController
+        
+        rvc.userChoice = getUserChoice(sender)
+        
+        presentViewController(rvc, animated: true, completion: nil)
+    }
 
     // Segue with Code approach
     
-    @IBAction func play(sender: UIButton) {
-        performSegueWithIdentifier("play", sender: self)
+    @IBAction private func playPaper(sender: UIButton) {
+        performSegueWithIdentifier("play", sender: sender)
     }
 
+    // Segue approach
+    
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let rvc = segue.destinationViewController as! ResultsViewController
-        
-        rvc.userChoice = getUserChoice(sender as! UIButton)
+        if segue.identifier == "play" {
+            let rvc = segue.destinationViewController as! ResultsViewController
+            
+            rvc.userChoice = getUserChoice(sender as! UIButton)
+        }
     }
     
     override func didReceiveMemoryWarning() {
