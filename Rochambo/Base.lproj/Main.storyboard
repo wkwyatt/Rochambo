@@ -23,7 +23,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="playPaper:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w7t-Id-Y4I"/>
+                                    <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WPN-oG-oKp"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZUF-Uq-Box">
@@ -32,7 +32,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="playRock:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Okh-oe-DGe"/>
+                                    <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RAi-Va-53Z"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let's Play" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="acP-oQ-eVo">
@@ -47,7 +47,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="bHz-na-37h" kind="presentation" identifier="play" id="wRd-pC-U3L"/>
+                                    <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gL5-3H-oSA"/>
                                 </connections>
                             </button>
                         </subviews>

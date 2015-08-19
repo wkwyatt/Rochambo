@@ -38,7 +38,7 @@ class ChoiceViewController: UIViewController {
     // This will be used by the "Rock" button.  But we will use the getUserShape helper method so that we
     // could use this method with any chice if we wanted to change later
     
-    @IBAction private func playRock(sender: UIButton) {
+    @IBAction private func play(sender: UIButton) {
         let rvc = self.storyboard!.instantiateViewControllerWithIdentifier("ResultsViewController") as! ResultsViewController
         
         rvc.userChoice = getUserChoice(sender)
@@ -46,21 +46,8 @@ class ChoiceViewController: UIViewController {
         presentViewController(rvc, animated: true, completion: nil)
     }
 
-    // Segue with Code approach
     
-    @IBAction private func playPaper(sender: UIButton) {
-        performSegueWithIdentifier("play", sender: sender)
-    }
-
-    // Segue approach
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if segue.identifier == "play" {
-            let rvc = segue.destinationViewController as! ResultsViewController
-            
-            rvc.userChoice = getUserChoice(sender as! UIButton)
-        }
-    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
